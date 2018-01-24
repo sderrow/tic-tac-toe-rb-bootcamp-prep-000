@@ -75,9 +75,6 @@ def turn(board)
   if valid_move?(board, index)
     move(board, index, current_player(board))
     display_board(board)
-    if over?(board)
-      
-    end
   else
     turn(board)
   end
